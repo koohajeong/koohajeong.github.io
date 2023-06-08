@@ -1,0 +1,163 @@
+
+
+/* 인트로 애니메이션 */
+@keyframes flower1 {
+    from {
+        top: 138px
+    }
+    50% {
+        top:147px
+    }
+    to{
+        top:138px
+    }
+}
+
+@keyframes flower2 {
+    from{
+        top:742px
+    }
+    50%{
+        top: 752px;
+    }
+    to{
+        top:742px
+    }
+}
+
+@keyframes flower3 {
+    from{
+        top:692px
+    }
+    50%{
+        top:702px
+    }
+    to{
+        top:692px
+    }
+}
+
+/* getover 애니메이션 */
+@keyframes getover-side {
+    from{
+        left: 10px;
+        opacity: 0;
+    }
+    to{
+        left:230px;
+        opacity: 1;
+    }
+}
+@keyframes getover-disappear{
+    from{
+        left: 230px;
+    }
+    to{
+        left: 10px;
+    }
+}
+.getover-side {
+    animation: getover-side 2s;
+}
+
+/* getover-text 애니메이션 */
+@keyframes text-side{
+    from{
+        right: 10px;
+        opacity: 0;
+    }
+    to{
+        right: 290px;
+        opacity: 1;
+    }
+}
+.text-side {
+    animation: text-side 2s;
+}
+
+/* aboutme-logo 애니메이션 */
+/* @keyframes aboutme{
+    from{
+        top: 10px;
+        opacity: 0;
+    }
+    to{
+        top: 130px;
+        opacity: 1;
+    }
+}
+.aboutme{
+    animation: aboutme 2s;
+} */
+
+/* skill-logo 애니메이션 */
+/* @keyframes skill{
+    from{
+        top: 10px;
+        opacity: 0;
+    }
+    to{
+        top: 130px;
+        opacity: 1;
+    }
+}
+.skill{
+    animation: skill 2s;
+} */
+
+
+/* 스킬 써클 */
+@keyframes psline {
+    from {
+        stroke-dashoffset: 628;
+    }
+
+    to {
+        stroke-dashoffset: 120;
+    }
+}
+
+@keyframes ailine {
+    from {
+        stroke-dashoffset: 628;
+    }
+
+    to {
+        stroke-dashoffset: 170;
+    }
+}
+
+@keyframes viline {
+    from {
+        stroke-dashoffset: 628;
+    }
+
+    to {
+        stroke-dashoffset: 220;
+    }
+}
+.psline {
+    animation: psline 2s forwards;
+}
+.ailine {
+    animation: ailine 2s forwards;
+}
+.viline {
+    animation: viline 2s forwards;
+}
+
+/* potfolio-logo 애니메이션 */
+/* @keyframes portfolio-slide{
+    from{
+        top: 10px;
+        opacity: 0;
+    }
+    to{
+        top: 140px;
+        opacity: 1;
+    }
+}
+.portfolio-slide{
+    animation: portfolio-slide 2s;
+} */
+
